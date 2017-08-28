@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.lenovo.myapp">
+
+    <application
+        android:name=".MyAppliction"
+        android:allowBackup="true"
+        android:icon="@drawable/yxlac"
+        android:label="@string/appnames"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name=".LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".AnyTextActivity"></activity>
+        <activity android:name=".MypageActivity"></activity>
+        <activity android:name=".WebviewActivity"
+           ></activity>
+        <activity android:name=".WebVIew_Test_Activity"></activity>
+    </application>
+<uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+</manifest>

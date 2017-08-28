@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/blue"
+    android:fitsSystemWindows="true"
+    android:orientation="horizontal">
+
+
+    <TextView
+        android:id="@+id/title_text"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_weight="4"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2" />
+
+    <ImageView
+        android:id="@+id/main_search"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+android:layout_margin="10dp"        android:src="@drawable/ic_search_white_48pt" />
+
+    <ImageView
+        android:id="@+id/main_igsel"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+android:layout_margin="10dp"        android:src="@drawable/ic_more_vert_white_48pt" />
+</LinearLayout>
